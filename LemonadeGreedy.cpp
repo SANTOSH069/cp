@@ -15,16 +15,6 @@ int main(int argc, char const *argv[])
 			curr += bills[i];
 		}
 		if(bills[i] > 5){
-			// if(curr >= bills[i]){
-			// 	if(bills[i] == 10){
-			// 		curr -= 5;
-			// 	}else {
-			// 		curr -= 10;
-			// 	}
-			// }else{
-			// 	valBills = false;
-			// 	break;
-			// }
 			if(bills[i] == 10){
 				if(curr >= 5){
 					curr -= 5;
